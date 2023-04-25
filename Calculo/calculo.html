@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div >
+          <input type="number" id="valora">  
+          <select id="operacao">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">x</option>
+            <option value="4">/</option>
+          </select>
+          <input type="number" id="valorb">
+          <p><input type="button" value="Calcular" onclick="verificar()">
+            &nbsp;<input type="button" value="Limpar" onclick="limpar()"></p>
+        </div>
+        <p><div id="res"></p>
+
+        </div>
+    </section>
+    <footer>
+        <p><a href="../home.html">Voltar</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

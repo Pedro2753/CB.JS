@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicio</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Calorias</h1>
+    </header>
+    <section>
+        <div>
+            <p>Sexo:
+                <input type="radio" name="genero" id="mas" value="mas" >
+                <label for="mas">Masculino</label>
+                <input type="radio" name="genero" id="fem" value="fem">
+                <label for="fem">Feminino</label>
+            </p>
+             <p>Peso: <input type="number" id="peso">&nbsp;kg </p>
+            <p>Altura: <input type="number" id="altura">&nbsp;cm</p>
+            <p>Idade: <input type="number" id="idade">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Atividade Fisica:   
+                <select id="af">
+                    <option value="0"></option>
+                    <option value="1">Sedentario</option>
+                    <option value="2">Levemente Ativo</option>
+                    <option value="3">Moderadamente Ativo</option>
+                    <option value="4">Muito ativo</option>
+                    <option value="5">Extremamente ativo</option>
+                  </select>
+            </p>
+            <p><input type="button" value="Calcular" id="calcular" onclick="calcular()">&nbsp;<input type="button" value="Limpar" onclick="limpar()"></p>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p><a href="../home.html">Voltar</a></p>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
