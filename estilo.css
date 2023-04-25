@@ -21,6 +21,11 @@ section {
 div{
 }
 
+a{
+    text-decoration: none;
+    
+}
+
 footer {
     color: white;
     text-align: center;
